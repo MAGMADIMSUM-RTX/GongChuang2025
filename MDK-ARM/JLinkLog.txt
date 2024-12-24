@@ -1,0 +1,123 @@
+T6080 013:806.142   SEGGER J-Link V7.64 Log File
+T6080 013:806.226   DLL Compiled: Apr  1 2022 16:04:43
+T6080 013:806.254   Logging started @ 2024-12-18 03:17
+T6080 013:806.281 - 30.422ms
+T6080 013:806.314 JLINK_SetWarnOutHandler(...)
+T6080 013:806.343 - 0.042ms
+T6080 013:806.375 JLINK_OpenEx(...)
+T6080 013:807.903   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T6080 013:808.503   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T6080 013:808.759   Decompressing FW timestamp took 202 us
+T6080 013:816.914   Hardware: V9.60
+T6080 013:816.988   S/N: 69661561
+T6080 013:817.040   OEM: SEGGER
+T6080 013:817.092   Feature(s): RDI, GDB, FlashDL, FlashBP, JFlash
+T6080 013:819.319   TELNET listener socket opened on port 19021
+T6080 013:828.100   WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+T6080 013:828.424   WEBSRV Webserver running on local port 19080
+T6080 013:851.246 - 44.910ms returns "O.K."
+T6080 013:851.317 JLINK_GetEmuCaps()
+T6080 013:851.347 - 0.043ms returns 0xB9FF7BBF
+T6080 013:851.376 JLINK_TIF_GetAvailable(...)
+T6080 013:851.783 - 0.440ms
+T6080 013:851.841 JLINK_SetErrorOutHandler(...)
+T6080 013:851.869 - 0.041ms
+T6080 013:851.914 JLINK_ExecCommand("ProjectFile = "D:\Computer\Desktop\Code\competition\Gongchuang\project\MDK-ARM\JLinkSettings.ini"", ...). 
+T6080 013:853.720 - 1.824ms returns 0x00
+T6080 013:853.770 JLINK_ExecCommand("Device = STM32F407VGTx", ...). 
+T6080 013:854.375   Device "STM32F407VG" selected.
+T6080 013:854.873 - 1.088ms returns 0x00
+T6080 013:854.914 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T6080 013:854.945 - 0.015ms returns 0x01
+T6080 013:854.973 JLINK_GetHardwareVersion()
+T6080 013:854.999 - 0.039ms returns 96000
+T6080 013:855.029 JLINK_GetDLLVersion()
+T6080 013:855.055 - 0.038ms returns 76400
+T6080 013:855.086 JLINK_GetOEMString(...)
+T6080 013:855.119 JLINK_GetFirmwareString(...)
+T6080 013:855.145 - 0.039ms
+T6080 013:855.180 JLINK_GetDLLVersion()
+T6080 013:855.205 - 0.038ms returns 76400
+T6080 013:855.236 JLINK_GetCompileDateTime()
+T6080 013:855.262 - 0.040ms
+T6080 013:855.297 JLINK_GetFirmwareString(...)
+T6080 013:855.324 - 0.039ms
+T6080 013:855.357 JLINK_GetHardwareVersion()
+T6080 013:855.384 - 0.039ms returns 96000
+T6080 013:855.416 JLINK_GetSN()
+T6080 013:855.443 - 0.040ms returns 69661561
+T6080 013:855.476 JLINK_GetOEMString(...)
+T6080 013:855.512 JLINK_TIF_Select(JLINKARM_TIF_JTAG)
+T6080 013:856.813 - 1.329ms returns 0x00
+T6080 013:856.866 JLINK_HasError()
+T6080 013:856.902 JLINK_SetSpeed(5000)
+T6080 013:857.264 - 0.394ms
+T6080 013:857.947 JLINK_HasError()
+T6080 013:857.993 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T6080 013:858.018 - 0.037ms returns JLINKARM_RESET_TYPE_NORMAL
+T6080 013:858.044 JLINK_Reset()
+T6080 013:858.468   InitTarget() start
+T6080 013:858.521    J-Link Script File: Executing InitTarget()
+T6080 013:859.775   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T6080 013:860.176   Error: Scanning JTAG chain failed.
+T6080 013:860.219   Can not attach to CPU. Trying connect under reset.
+T6080 013:912.412   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T6080 013:913.110   Error: Scanning JTAG chain failed.
+T6080 013:913.220   Connecting to CPU via connect under reset failed.
+T6080 013:963.928   InitTarget() end
+T6080 014:026.381   InitTarget() start
+T6080 014:026.485    J-Link Script File: Executing InitTarget()
+T6080 014:029.108   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T6080 014:029.955   Error: Scanning JTAG chain failed.
+T6080 014:030.059   Can not attach to CPU. Trying connect under reset.
+T6080 014:083.945   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T6080 014:084.542   Error: Scanning JTAG chain failed.
+T6080 014:084.637   Connecting to CPU via connect under reset failed.
+T6080 014:135.079   InitTarget() end
+T6080 014:135.171 - 277.148ms
+T6080 014:135.232 JLINK_GetIdData(pIdData)
+T6080 014:135.939   InitTarget() start
+T6080 014:136.027    J-Link Script File: Executing InitTarget()
+T6080 014:138.294   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T6080 014:139.105   Error: Scanning JTAG chain failed.
+T6080 014:139.189   Can not attach to CPU. Trying connect under reset.
+T6080 014:192.390   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T6080 014:192.947   Error: Scanning JTAG chain failed.
+T6080 014:193.079   Connecting to CPU via connect under reset failed.
+T6080 014:244.437   InitTarget() end
+T6080 014:306.738   InitTarget() start
+T6080 014:306.856    J-Link Script File: Executing InitTarget()
+T6080 014:309.859   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T6080 014:310.536   Error: Scanning JTAG chain failed.
+T6080 014:310.657   Can not attach to CPU. Trying connect under reset.
+T6080 014:363.779   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T6080 014:364.487   Error: Scanning JTAG chain failed.
+T6080 014:364.650   Connecting to CPU via connect under reset failed.
+T6080 014:417.094   InitTarget() end
+T6080 014:417.213 - 282.008ms
+T6080 014:417.291 JLINK_GetIdData(pIdData)
+T6080 014:417.915   InitTarget() start
+T6080 014:418.016    J-Link Script File: Executing InitTarget()
+T6080 014:420.461   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T6080 014:421.037   Error: Scanning JTAG chain failed.
+T6080 014:421.122   Can not attach to CPU. Trying connect under reset.
+T6080 014:473.654   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T6080 014:474.310   Error: Scanning JTAG chain failed.
+T6080 014:474.427   Connecting to CPU via connect under reset failed.
+T6080 014:525.868   InitTarget() end
+T6080 014:588.567   InitTarget() start
+T6080 014:588.710    J-Link Script File: Executing InitTarget()
+T6080 014:590.770   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T6080 014:591.470   Error: Scanning JTAG chain failed.
+T6080 014:591.637   Can not attach to CPU. Trying connect under reset.
+T6080 014:644.267   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T6080 014:644.755   Error: Scanning JTAG chain failed.
+T6080 014:644.835   Connecting to CPU via connect under reset failed.
+T6080 014:695.290   InitTarget() end
+T6080 014:695.406 - 278.142ms
+T6080 014:705.257 JLINK_GetFirmwareString(...)
+T6080 014:705.316 - 0.077ms
+T6080 016:770.843 JLINK_Close()
+T6080 016:788.296 - 17.469ms
+T6080 016:788.319   
+T6080 016:788.331   Closed

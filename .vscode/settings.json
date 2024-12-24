@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.c": "c",
+        "emm_v5.h": "c",
+        "i2c.h": "c",
+        "oled.h": "c"
+    }
+}
