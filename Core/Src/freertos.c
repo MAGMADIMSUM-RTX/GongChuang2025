@@ -132,7 +132,7 @@ void MX_FREERTOS_Init(void) {
 /**
  * @brief  Function implementing the defaultTask thread.
  * @param  argument: Not used
- * @retval None
+ * @retval None 
  */
 /* USER CODE END Header_StartDefaultTask */
 void StartDefaultTask(void *argument)
